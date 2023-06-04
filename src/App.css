@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 400px;
+  margin-top: 150px;
+}
+
+.display {
+  background-color:darkgrey;
+  width: 318px;
+  height: 140px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 40px;
+  border: solid black 1px;
+
+
+ 
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 320px;
+  height: 320px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+}
+
+.leftSide{
+  flex: 75%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.rightSide {
+  flex: 25%;
+  height: 100%;
+  background-color: aqua;
+}
+
+#enterButton {
+  background-color: black;
+  border: 1px solid black;
+  width: 238px;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+#enterButton:hover{
+  background-color: #3E3B3B;
+}
+
+#enterButton:active {
+  background-color: #B4ADAC;
+}
+
+.numbers {
+  width: 240px;
+  height: 240px;
+  background-color: pink;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#individualNumber, #individualOperation {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  width: 78px;
+  height: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#individualNumber:hover {
+  background-color:grey;
+}
+
+#individualNumber:active {
+  background-color:lightslategrey;
+}
+
+#individualOperation{
+  background-color: crimson;
+}
+
+#individualOperation:hover {
+  background-color:darkred;
+}
+
+#individualOperation:active {
+  background-color: maroon;
+}
+
+
+
+
